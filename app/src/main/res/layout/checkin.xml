@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fff0f7">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Guest Name"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/gname"
+        android:padding="5dp"
+        android:inputType="textFilter|textNoSuggestions"
+        android:background="@drawable/round_edit_text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Guest Email ID"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/gemail"
+        android:padding="5dp"
+        android:inputType="textWebEmailAddress"
+        android:background="@drawable/round_edit_text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Guest Mobile Number"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/gmob"
+        android:padding="5dp"
+        android:inputType="phone"
+        android:background="@drawable/round_edit_text"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Select Host:"
+        android:textSize="20dp"
+        android:textColor="#ff0077"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lv1"
+        android:padding="10dp" />
+
+
+
+</LinearLayout>

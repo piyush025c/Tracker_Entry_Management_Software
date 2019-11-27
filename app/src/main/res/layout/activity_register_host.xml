@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterHost"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fff0f7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="New Host Registration"
+        android:textColor="#ff0077"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Host Name"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/hname"
+        android:padding="5dp"
+        android:background="@drawable/round_edit_text"
+        android:inputType="textFilter|textNoSuggestions"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Host Email ID"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/hemail"
+        android:padding="5dp"
+        android:background="@drawable/round_edit_text"
+        android:inputType="textWebEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Host Mobile Number"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/hmob"
+        android:padding="5dp"
+        android:background="@drawable/round_edit_text"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Host Work Place"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/haddress"
+        android:padding="5dp"
+        android:background="@drawable/round_edit_text"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Host"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:background="@drawable/roundbutton"
+        android:textColor="#ffffff"
+        android:id="@+id/hregister"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="Go back?"
+        android:textColor="#ff0077"
+        android:id="@+id/back1"/>
+
+</LinearLayout>
