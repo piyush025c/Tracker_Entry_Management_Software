@@ -12,7 +12,7 @@ To develop a software that manages visitor(guest) entries to places within the o
 ### Approach:
 ___
 Keeping the requirements in consideration, it is important that the software built not only performs the basic tasks but also is required to be user friendly, else the software is of no use.
-Given an Organization, the hosts are generally fixed. As a result, instead of taking host information from the guest every time during check-in, we could reduce his effort by registering these hosts beforehand and allowing the guest to just select from the registered hosts from a populated list. Now someone may ask, what if there is a new host that has not been registered yet? Don’t worry, the solution is simple, just keep a separate interface that allows registration of new hosts so that we effectively reduce both the effort a time during check-in.
+Given an Organization, the hosts are generally fixed. As a result, instead of taking host information from the guest every time during check-in, we could reduce his effort by registering these hosts beforehand and allowing the guest to just **select from the registered hosts from a populated list**. Now someone may ask, what if there is a new host that has not been registered yet? Don’t worry, the solution is simple, just keep a separate interface that allows registration of new hosts so that we effectively reduce both the effort a time during check-in.
 (The host details are stored using firebase real time database under the node “Host”)
 
 **Note:** All the details entered during host registration, check-in and even check-out are validated using some backend logic.
