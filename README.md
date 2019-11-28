@@ -72,7 +72,10 @@ ___
 *  **Download zip**: As noted, you can click the Download button to save a zipped archive to you local computer.
 *  Extaract the files and open the project folder in Android Studio.
 
+### Contact
+___
 
-
+* Author: Piyush Chowdhary
+* Email: 17ucs111@lnmiit.ac.in
 
 
